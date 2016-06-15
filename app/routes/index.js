@@ -3,7 +3,7 @@
 var path = process.cwd();
 var moment = require("moment");
 
-module.exports = function (app, passport) {
+module.exports = function (app) {
 
 	function unixToTimestamp(date) {
 		return moment.unix(date).format('LL');
